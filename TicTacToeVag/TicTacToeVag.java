@@ -1,31 +1,30 @@
-/**
- * Tic-Tac-Toe
- *  *
- * This Java program implements a simple two-player Tic-Tac-Toe game.
- * The game consists of the following steps:
- *
- * 1. The program prompts each player to enter their name.
- * 2. The game alternates between Player 1 (symbol 'X') and Player 2 (symbol 'O').
- * 3. Players take turns selecting positions on a 3x3 board.
- * 4. After each move, the program checks if there's a winner or if the game ends in a draw.
- * 5. The game announces the winner or indicates if the match is a draw.
- *
- * Features:
- * - Input validation ensures valid positions and prevents overwriting occupied spots.
- * - The board is printed after each turn, showing the current state of play.
- * - The game declares a winner if one player aligns three symbols in a row, column, or diagonal.
- * - Draw conditions are handled after 9 turns if no winner is found.
- *
- *
- * Author: [Vaggelis Theodorakis]
+ /*
+  Tic-Tac-Toe
+   *
+  This Java program implements a simple two-player Tic-Tac-Toe game.
+  The game consists of the following steps:
+
+  1. The program prompts each player to enter their name.
+  2. The game alternates between Player 1 (symbol 'X') and Player 2 (symbol 'O').
+  3. Players take turns selecting positions on a 3x3 board.
+  4. After each move, the program checks if there's a winner or if the game ends in a draw.
+  5. The game announces the winner or indicates if the match is a draw.
+
+  Features:
+  - Input validation ensures valid positions and prevents overwriting occupied spots.
+  - The board is printed after each turn, showing the current state of play.
+  - The game declares a winner if one player aligns three symbols in a row, column, or diagonal.
+  - Draw conditions are handled after 9 turns if no winner is found.
+
+
+  Author: [Vaggelis Theodorakis]
  */
 
+package TicTacToeVag;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class MainApp {
-
-    public static class TicTacToeVag {
+    public class TicTacToeVag {
 
         static Scanner sc = new Scanner(System.in);
 
@@ -212,4 +211,4 @@ public class MainApp {
 
 
     }
-}
+
